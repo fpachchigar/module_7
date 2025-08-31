@@ -1,0 +1,49 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+#root {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* BitcoinRates component box */
+.BitcoinRates {
+  background: #afbc65;
+  border: 1px solid #be5050;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(168, 80, 92, 0.882);
+}
+
+.BitcoinRates label {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.BitcoinRates select {
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.BitcoinRates p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #27ae60;
+}
