@@ -1,15 +1,19 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+  background-color: #dcdc80;
   color: #333;
 }
 
 #root {
-  text-align: center;
+  text-align: left; /* Align content to the left */
   padding: 20px;
+  position: absolute; /* Position the container */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Optional: Set width to 100% */
+  height: 100%; /* Optional: Set height to 100% */
 }
 
 /* Heading styles */
@@ -17,11 +21,12 @@ h1 {
   color: #2c3e50;
   font-size: 2.5rem;
   margin-bottom: 20px;
+  text-align: center; /* Center the heading */
 }
 
 /* BitcoinRates component box */
 .BitcoinRates {
-  background: #afbc65;
+  background: #cecbdd;
   border: 1px solid #be5050;
   border-radius: 8px;
   padding: 20px;
@@ -46,4 +51,26 @@ h1 {
   font-size: 1.2rem;
   margin-top: 15px;
   color: #27ae60;
+}
+
+.Emoji {
+  font-size: 5rem; /* Make the emoji larger */
+  margin-top: 20px; /* Add spacing above the emoji */
+  text-align: center; /* Center the emoji */
+}
+
+.switch-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff; /* Blue background */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.switch-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }

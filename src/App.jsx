@@ -1,13 +1,14 @@
-import React from "react";
-import BitcoinRates from "./components/BitcoinRates";
 import "./App.css";
+import BitcoinRates from "./components/BitcoinRates";
+import Emoji from "./components/Emoji";
+import { EmojiProvider } from "./context/EmojiContext";
 
 function App() {
   return (
-    <div id="root">
-      <h1>Bitcoin Exchange Rates</h1>
+    <EmojiProvider>
       <BitcoinRates />
-    </div>
+      <Emoji />
+    </EmojiProvider>
   );
 }
 
